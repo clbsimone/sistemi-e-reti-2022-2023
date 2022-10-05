@@ -1,4 +1,4 @@
 nome = input("nome: ")
-l = ["*", "*", "*", "*", "*", "*", "*"]
 x = len(nome)
-print(f'{nome[0]}{l[x + 1:]}')
+a_nome = '*************'
+print(f'{nome[0]}{a_nome[1:x]}')
