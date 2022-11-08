@@ -70,6 +70,9 @@ def leggiFile(name_file):
     file.close()
     # print(lista_righe)
 
+def main():
+    name_file = "4AROB_GITA.csv"
+    leggiFile(name_file)
 
-name_file = "4AROB_GITA.csv"
-leggiFile(name_file)
+if __name__ == "__main__":
+    main()
