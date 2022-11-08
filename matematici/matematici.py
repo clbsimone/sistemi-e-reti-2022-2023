@@ -4,7 +4,7 @@ def findMat(diz):
     listId = diz["id"]
     listName = diz["name"]
     
-    for i, n in zip(listId, listName):  # cicla su due liste contemporaneamente
+    for i, n in zip(listId, listName): # cicla su due liste contemporaneamente
         if i == id:
             return n
 
